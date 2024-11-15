@@ -10,4 +10,8 @@ class Clicker extends Component
     {
         return view('livewire.clicker');
     }
+    public function handleClick()
+    {
+        dump("clicked");
+    }
 }
