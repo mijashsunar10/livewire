@@ -1,4 +1,8 @@
 <div>
+
+    @if(session('success'))
+    <span class="px-3 py-3 bg-green-600 text-rounded">  {{session('success')}}</span>
+    @endif  
     {{-- If your happiness depends on money, you will never be happy with yourself. --}}
     <div class="m-2">
        <form action="" wire:submit="createNewUser">
