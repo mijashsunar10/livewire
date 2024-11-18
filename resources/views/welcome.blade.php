@@ -23,6 +23,10 @@
     <body class="antialiased ">
      @livewire('clicker')
 
-     <livewire:clicker/>
+     @livewire('data-binding')
+
+     @livewire('validation')
+
+     {{-- <livewire:clicker/> just an another way to see the livewire --}}
     </body>
 </html>
